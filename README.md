@@ -138,7 +138,7 @@ Certain modules require API keys to work. Make sure to add any necessary API key
 
 ## ⭐️ Show Your Support
 
-If this tool has been helpful to you, please consider giving us a star on GitHub! Your support means a lot to us and helps others discover the project.
+If this tool has been helpful to you, please consider giving us a star on GitHub!.
 
 ---
 
