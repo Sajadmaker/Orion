@@ -1,10 +1,3 @@
-Here’s the modified version of your README file with the requested changes:
-- **Author**: Changed to `sajadmaker`.
-- **Tool Name**: Changed from `Argus` to `Orion`.
-- **Images**: Removed all images and GIFs.
-- **General Cleanup**: Updated the text to reflect the new tool name and author.
-
-```markdown
 <h1 align="center">
   <a href="">
     Orion
@@ -22,6 +15,8 @@ Here’s the modified version of your README file with the requested changes:
 Orion is an all-in-one, Python-powered toolkit designed to streamline the process of information gathering and reconnaissance. With a user-friendly interface and a suite of powerful modules, Orion empowers you to explore networks, web applications, and security configurations efficiently and effectively.
 
 Whether you're conducting research, performing security assessments with proper authorization, or just curious about network infrastructures, Orion brings a wealth of information to your fingertips—all in one place.
+
+---
 
 ## ⚠️ WARNING: LEGAL DISCLAIMER
 
@@ -120,20 +115,6 @@ The security modules in Orion are designed to assess the target's defenses and g
 53. **Subdomain Takeover**: Test whether subdomains are vulnerable to takeover.
 54. **VirusTotal Scan**: Check the target's reputation using VirusTotal.
 
-### How to Use Orion
-
-1. Launch Orion from the command line.
-2. Enter the tool number you want to use from the main menu.
-3. Follow the prompts to enter relevant information.
-4. Review the results and adjust your strategy accordingly.
-
-**Example Command:**
-
-```bash
-root@orion:~# 1
-```
-This command initiates the **Associated Hosts** tool.
-
 ---
 
 ## 🛠 Configuration
@@ -144,7 +125,7 @@ Certain modules require API keys to work. Make sure to add any necessary API key
 
 ## 🔄 Changelog
 
-1.1 Release Notes : 
+### 1.1 Release Notes
 - Added Emails Harvesting module
 - Added HTTP/2 and HTTP/3 Support Checker module
 - Added Check for Publicly Exposed Environment Files module
@@ -162,4 +143,3 @@ If this tool has been helpful to you, please consider giving us a star on GitHub
 ---
 
 **Coded by:** [sajadmaker](https://github.com/sajadmaker)
-```
