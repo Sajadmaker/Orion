@@ -143,3 +143,4 @@ If you find Orion useful, please consider giving it a star on GitHub! Your suppo
 ---
 
 **Coded by:** [sajadmaker](https://github.com/sajadmaker)
+**Inspired from other tools on github**
