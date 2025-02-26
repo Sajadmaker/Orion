@@ -117,17 +117,18 @@ def logo():
  ╚═════╝ ╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝
     """
     lines = ascii_art.strip("\n").split("\n")
-    colors = ["bright_green", "bright_cyan", "bright_magenta", "bright_blue", "bright_red", "bright_yellow"]
+    # New color scheme: Cyberpunk-inspired colors
+    colors = ["#00ffcc", "#ff00ff", "#00ffff", "#ff6600", "#cc00ff", "#00ff00"]
     colored_lines = []
     for line in lines:
         color = random.choice(colors)
-        colored_lines.append(f"[bold {color}]{line}[/bold {color}]")
+        colored_lines.append(f"[{color}]{line}[/{color}]")
         time.sleep(0.05)
     colored_ascii_art = "\n".join(colored_lines)
     description = f"""
-[bold bright_cyan]The Elite Information Gathering Tool[/bold bright_cyan]
+[#00ffcc]The Elite Information Gathering Tool[/#00ffcc]
 
-Version: [bold bright_green]{VERSION}[/bold bright_green]    Modules: [bold bright_yellow]{number_of_modules}[/bold bright_yellow]    Coded by: [bold bright_magenta]{AUTHOR}[/bold bright_magenta]
+Version: [#ff00ff]{VERSION}[/#ff00ff]    Modules: [#00ffff]{number_of_modules}[/#00ffff]    Coded by: [#cc00ff]{AUTHOR}[/#cc00ff]
     """.strip()
     combined_text = f"{colored_ascii_art}\n{description}"
     panel_color = random.choice(colors)
@@ -156,7 +157,7 @@ def display_table():
     table.add_row("", "", "")
     table.add_row("[bold]100[/bold]. Run All Infrastructure Tools", "[bold]200[/bold]. Run All Web Intelligence Tools", "[bold]300[/bold]. Run All Security Tools")
     table.add_row("", "", "")
-    table.add_row("", "[bold red]" + "-" * 15 + " Developed and maingtained by sajadmaker " + "-" * 15 + "[/bold red]", "")
+    table.add_row("", "[bold red]" + "-" * 15 + " Developed and maintained by sajadmaker " + "-" * 15 + "[/bold red]", "")
     console.print(table)
 
 def check_api_modules():
